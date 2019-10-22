@@ -1,4 +1,73 @@
-/* Positioning */
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
 main {
     text-align: center;
+    margin-top: 100px;
+}
+
+main > * {
+    margin: 25px 0;
+}
+
+form input[type=text] {
+    border-radius: 3em;
+    border-width: thin;
+    height: 30px;
+    width: 500px;
+}
+
+.search-btns {
+    margin: 25px 0;
+}
+
+.search-btns > * {
+    padding: 10px;
+    margin: 0 12px;
+    background-color: whitesmoke;
+    border-style: hidden;
+    border-radius: 0.6em;
+    font-size: 0.9em;
+}
+
+.search-btns > *:hover {
+    border-style: solid;    
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 0.75em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
 }
